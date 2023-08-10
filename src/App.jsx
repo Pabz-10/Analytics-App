@@ -5,6 +5,8 @@ import Stats from "./pages/Stats";
 import Songs from "./pages/Songs";
 import Artists from "./pages/Artists";
 import Albums from "./pages/Albums";
+import Settings from "./pages/Settings";
+
 
 
 function App() {
@@ -13,10 +15,11 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/Stats" element={<Stats />}/>
-        <Route path="/Songs" element={<Songs />} />
-        <Route path="/Artists" element={<Artists />} />
-        <Route path="/Albums" element={<Albums />}/>
+        <Route path="/stats" element={<Stats />}/>
+        <Route path="/songs" element={<Songs />} />
+        <Route path="/artists" element={<Artists />} />
+        <Route path="/albums" element={<Albums />}/>
+        <Route path="/settings" element={<Settings />}/>
       </Routes>
     </div>
   );
