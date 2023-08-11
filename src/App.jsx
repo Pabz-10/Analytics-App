@@ -8,7 +8,6 @@ import Albums from "./pages/Albums";
 import Settings from "./pages/Settings";
 
 
-
 function App() {
   return (
     <div>
