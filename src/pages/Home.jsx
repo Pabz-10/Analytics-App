@@ -1,3 +1,11 @@
+import PageLayout from "../PageLayout";
+
 export default function Home(){
-    return (<h1>Home</h1>)
+    return (
+        <div>
+            <PageLayout>
+                <h1>home</h1>
+            </PageLayout>
+        </div>
+    );
 };

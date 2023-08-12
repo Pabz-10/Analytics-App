@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import SearchBar from "./SearchBar"
 
 export default function NavBar(){
     return (
-
         <nav className="navbar">
             <h1>Your Spotify Analytics</h1>
+                <SearchBar />
                 <ul className="navbar--items">
                     <li className="navbar--titles">General</li>
                     <li><Link to="/">Home</Link ></li>

@@ -6,19 +6,20 @@ import Songs from "./pages/Songs";
 import Artists from "./pages/Artists";
 import Albums from "./pages/Albums";
 import Settings from "./pages/Settings";
+import PageLayout from "./PageLayout";
 
 
 function App() {
   return (
     <div>
-      <NavBar />
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/stats" element={<Stats />}/>
+        <Route element={<PageLayout />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/stats" element={<Stats />} />
         <Route path="/songs" element={<Songs />} />
         <Route path="/artists" element={<Artists />} />
-        <Route path="/albums" element={<Albums />}/>
-        <Route path="/settings" element={<Settings />}/>
+        <Route path="/albums" element={<Albums />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </div>
   );

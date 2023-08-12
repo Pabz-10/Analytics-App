@@ -1,3 +1,11 @@
+import PageLayout from "../PageLayout";
+
 export default function Albums(){
-    return (<h1>albun</h1>)
+    return (
+        <div>
+            <PageLayout>
+                <h1>album</h1>
+            </PageLayout>
+        </div>
+    );
 };

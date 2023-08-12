@@ -1,3 +1,11 @@
+import PageLayout from "../PageLayout";
+
 export default function Songs(){
-    return (<h1>Songs</h1>)
+    return (
+        <div>
+            <PageLayout>
+                <h1>songs</h1>
+            </PageLayout>
+        </div>
+    );
 };
